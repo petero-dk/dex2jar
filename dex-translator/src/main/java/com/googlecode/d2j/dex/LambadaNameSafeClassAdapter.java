@@ -16,7 +16,7 @@ public class LambadaNameSafeClassAdapter extends RemappingClassAdapter {
                 if (type == null) {
                     return null;
                 }
-                return type.replace('-', '_');
+                return type; //.replace('-', '_');
             }
         });
     }
